@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking form</title>
+
+    <style>
+        body{
+            border: 5px solid black;
+            padding:10px;
+            width:90%;
+           
+            margin:auto;
+            text-align: center;
+            font-size: 22px;
+        
+        }
+    </style>
+</head>
+<body>
+    <h2>Hotel Room Booking Form</h2>
+    <form>
+        <h5>
+            Name:<input type="text" name="Name" placeholder="enter your name">
+
+        </h5>
+        <h5>
+            Email:<input type="text" name="emil id" placeholder="enter your Email id">
+        </h5>
+        <h5>
+            Phone:<input type="tel" name="phone number" placeholder="enter your phone number">
+        </h5>
+        <h5>check-in date
+            <label for="check-in"></label>
+            <input type="date" id="check-in" name="check-in date">
+            
+        </h5>
+        <h5>check-out date
+            <label for="check-out"></label>
+            <input type="date" id="check-out" name="check-out date">
+            
+        </h5>
+        <h5>Room type:</h5>
+        <select>
+            <option value="single">single</option>
+            <option value="double">double</option>
+            
+            <option value="triple">triple</option>
+            
+            <option value="deluxe">deluxe</option>
+            <option value="suite">suite</option>
+            <option value="cabana">cabana</option>
+        </select>
+        <h5>Number of guest:</h5>
+        <input type="tel" name="number of guest" placeholder="enter the number of guest">
+        <h5>special requests:</h5>
+        <textarea name="special requests" rows="4" cols="50" placeholder="enter any special requests here"></textarea>      
+        <br>
+       <span><a href="/booknow.html">Book now</a> </span>&nbsp;&nbsp;&nbsp;&nbsp;
+       <span><a href="/resetform.html">Reset form</a> </span>
+
+
+    </form>
+</body>
+
