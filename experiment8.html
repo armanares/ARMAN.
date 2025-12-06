@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Experiment 9 (flex) </title>
+</head>
+<style>
+    .container{
+       
+        border:2px solid black;
+        margin-top: 180px  ;
+        margin-bottom: 10px;
+        margin-left: 100px;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        row-gap:10px;
+        height:400px;
+        width:1200px;
+    }
+    .box{
+        border: none;
+        display :flex;
+        margin-left:50px;
+        flex-direction: row;
+        height:300px;
+        width: 330px;
+        flex-direction: column;
+        border-radius:8px;
+        box-shadow: 0px 4px 6px rgba(0,0,0,0.1);
+    }
+    .avatar{
+        background-color: blue;
+        width:100px;
+        height:100px;
+        border-radius: 50px;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        margin-left: 120px;
+        
+    }
+    .name{
+        text-align: center;
+        font-size: 25px;
+        font-weight: bold;
+        margin-top: 15px;
+    }
+    .details{
+        text-align: center;
+        font-size: 18px;
+        color: gray;
+        margin-top: 10px;
+    }
+
+</style>
+<body>
+    
+     <div class="container">
+        
+            <div class="box">
+                <div class="avatar"><p style="color:white;font-size: 26px;text-align: center;margin-top: 34px;">JK</p></div>
+                <div><h2 class="name">Jeet Kumar</h2></div>
+                <div>
+                    <p class="details">B.Tech-CSE</p>
+                    <p class="details">Roll No: 21CS1007</p>
+                    <p class="details">1st Year</p>
+
+                
+                </div>
+
+            </div>
+            <div class="box">
+                <div class="avatar"><p style="color:white;font-size: 26px;text-align: center;margin-top: 34px;">AR</p></div>
+                <div><h2 class="name" >Asha Rani</h2></div>
+                <div>
+                    <p class="details">B.Tech-IT</p>
+                    <p class="details">Roll No: 21IT1012</p>
+                    <p class="details">1st Year</p>
+                </div>
+            </div>
+            <div class="box">
+                 <div class="avatar"><p style="color:white;font-size: 26px;text-align: center;margin-top: 34px;">RK</p></div>
+                <div><h2 class="name">Rohit Kumar</h2></div>
+                <div>
+                    <p class="details">B.Tech-ECE</p>
+                    <p class="details">Roll No:21EC1009 </p>
+                    <p class="details">1st Year</p>
+                </div>
+            </div>
+
+        
+        
+     </div>
+</body>
+</html>
